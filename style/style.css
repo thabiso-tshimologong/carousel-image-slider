@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery-images {
+    display: none;
+    max-height: 600px;
+}
+
+.images-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    display: block;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: burlywood;
+    color: cadetblue;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
